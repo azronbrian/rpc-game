@@ -10,6 +10,18 @@ body {
     font-family: Helvetica neue, roboto;
 }
 
+@media only screen and (max-width: 600px) {
+    .choices{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .choice{
+        width: 450px;
+        margin-bottom: 5px;
+    }
+ }
+
 #res {
     font-size: 20px;
 }
@@ -28,16 +40,4 @@ body {
     border-radius: 5px;
     color: #ffffff;
     cursor: pointer;
-}
-  
-@media only screen and (max-width: 600px) {
-   .choices{
-       display: flex;
-       flex-direction: column;
-   }
-
-   .choice{
-       width: 450px;
-       margin-bottom: 5px;
-   }
 }
