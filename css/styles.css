@@ -30,3 +30,14 @@ body {
     cursor: pointer;
 }
   
+@media only screen and (max-width: 600px) {
+   .choices{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .choice{
+       width: 450px;
+       margin-bottom: 5px;
+   }
+}
